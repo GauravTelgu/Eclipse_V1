@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+
+public class Methodsdemo2 {
+
+	public String getuserdata()
+	{
+		System.out.println("Java Selenium");
+		return "GT";
+		
+	}
+}
+

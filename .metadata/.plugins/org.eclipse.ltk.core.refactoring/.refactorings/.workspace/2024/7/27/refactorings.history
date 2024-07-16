@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Rest_Assured_Petstore&apos; to &apos;Rest_Assured_FakeRestApi&apos;" description="Rename resource &apos;Rest_Assured_Petstore&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Rest_Assured_Petstore" name="Rest_Assured_FakeRestApi" stamp="1719905807305" updateReferences="true"/>
+</session>

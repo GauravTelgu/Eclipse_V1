@@ -1,0 +1,19 @@
+
+public class Contructor1 {
+	public Contructor1() {
+		Syste.out.println(name);
+	}
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+			
+
+	
+	
+	}
+
+}

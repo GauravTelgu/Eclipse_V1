@@ -1,0 +1,12 @@
+package Date_time;
+
+public class Calendardemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Calendar.getInstance();
+		
+	}
+
+}

@@ -1,0 +1,64 @@
+import java.time.LocalDate;
+import java.time.Month;
+
+public class SwitchCase_17{
+
+	// Get the current date
+	LocalDate CurrentDate = LocalDate.now();
+	
+	// Extract the current month
+	Month Currentmonth = CurrentDate.getMonth();	
+	
+	switch (currentMonth) {
+    case JANUARY:
+        System.out.println("Current month is January.");
+        break;
+    case FEBRUARY:
+        System.out.println("Current month is January.");
+        break;
+    case MARCH:
+        System.out.println("Current month is January.");
+        break;
+    case APRIL:
+        System.out.println("Current month is January.");
+        break;
+    case MAY:
+        System.out.println("Current month is January.");
+        break;
+    case JUNE:
+        System.out.println("Current month is January.");
+        break;
+    case JULY:
+        System.out.println("Current month is January.");
+        break;
+    case AUGUST:
+        System.out.println("Current month is January.");
+        break;
+    case SEPTEMBER:
+        System.out.println("Current month is January.");
+        break;
+    case OCTOBER:
+        System.out.println("Current month is January.");
+        break;
+    case NOVEMBER:
+        System.out.println("Current month is January.");
+        break;
+    case DECEMBER:
+        System.out.println("Current month is January.");
+        break;
+    default:
+        System.out.println("Invalid month!");
+        break;
+	
+				
+	
+}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+}
+
+
+

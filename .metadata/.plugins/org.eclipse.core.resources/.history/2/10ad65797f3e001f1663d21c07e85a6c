@@ -1,0 +1,24 @@
+Feature: Online Fake API-Airlines-Post
+
+	@execute
+Scenario: Create a new user
+  Given url baseURI
+  And path 'users'
+  And request
+    """
+    {
+    "name": "morpheus",
+    "job": "leader"
+		}
+    """
+  When method POST
+  Then status 201
+  #And match response._id == "252d3bca-d9bb-476c-9a97-562d685e235c"
+    #And match response.name == "Quatar Airways"
+    #And match response.country == "Qatar"
+    #And match response.logo == "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/300px-Qatar_Airways_Logo.svg.png"
+    #And match response.slogan == "Going Places Together"
+    #And match response.head_quaters == "Qatar Airways Towers, Doha, Qatar"
+    #And match response.website == "www.qatarairways.com"
+    #And match response.established == "1994"
+    

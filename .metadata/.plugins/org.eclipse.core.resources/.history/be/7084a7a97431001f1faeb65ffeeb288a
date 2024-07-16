@@ -1,0 +1,13 @@
+public class String_19 {
+
+	public void String1() {
+		String name1 = "Sachin Tendulkar";
+		String name2 = "Rahul Dravid";
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package com.maveric.project.frames;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+import com.maveric.project.utils.DriverFactory;
+
+public class FramesDemo {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+
+		String baseurl = "https://demo.automationtesting.in/Register.html";
+		
+		WebDriver driver=DriverFactory.getDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get(baseurl);
+		driver.manage().window().maximize();
+		
+		driver.findElement(By.xpath("//a[normalize-space()='Iframe with in an Iframe]")).click();
+		
+		
+	}
+
+}

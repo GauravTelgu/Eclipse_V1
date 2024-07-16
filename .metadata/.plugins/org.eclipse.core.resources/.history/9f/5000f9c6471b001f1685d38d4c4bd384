@@ -1,0 +1,17 @@
+package Collections;
+
+import java.util.ArrayList;
+
+public class arraylistexample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//ArrayList comes under Util Package
+		ArrayList<String> a = new  ArrayList<String>();
+		
+	
+		
+	}
+
+}

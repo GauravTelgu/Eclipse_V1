@@ -1,0 +1,22 @@
+
+public class Exception_3 {
+
+	public void Excp() {
+		
+		try {
+			int age = 0;
+			if (age>=24 && age<=55) {
+				System.out.println("Print age:" + age);
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

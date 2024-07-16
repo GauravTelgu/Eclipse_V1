@@ -1,0 +1,13 @@
+
+public class OddEven_18 {
+
+	public void OddEven() {
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

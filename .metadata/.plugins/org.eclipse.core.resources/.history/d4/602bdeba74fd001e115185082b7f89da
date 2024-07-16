@@ -1,0 +1,25 @@
+public class Constructor3 {
+    private String make;
+    private String model;
+    private int year;
+
+    // Constructor to initialize make, model, and year
+    public Constructor3(String make, String model, int year) {
+        this.make = make;
+        this.model = model;
+        this.year = year;
+        
+        System.out.println(this.make);
+        
+    }
+
+    // Getters and setters omitted for brevity
+
+    public static void main(String[] args) {
+        // Creating objects of Car class using constructor
+    	new Constructor3("Toyota", "Camry", 2020);
+    	new Constructor3("Honda", "Civic", 2019);
+
+       
+    }
+}

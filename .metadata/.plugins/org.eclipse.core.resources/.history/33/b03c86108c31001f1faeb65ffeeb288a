@@ -1,0 +1,20 @@
+import java.time.LocalDate;
+
+public class Currentdate_String_14 {
+
+	public void CS(String date) {
+		
+		LocalDate CurrentLocalDate = LocalDate.now();
+		
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Currentdate_String_14 obj1 = new Currentdate_String_14();
+		obj1.CS(Currentdate_String_14);
+	}
+
+}

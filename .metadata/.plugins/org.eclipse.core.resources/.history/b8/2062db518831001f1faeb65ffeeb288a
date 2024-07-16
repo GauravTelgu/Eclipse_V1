@@ -1,0 +1,19 @@
+import java.time.LocalDate;
+import java.time.Month;
+
+public class SwitchCase_17 {
+
+	LocalDate CurrentDate = LocalDate.now();
+	
+	public void cal() {
+		SwitchCase_1(Currentmonth){
+			
+		}
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package Collections;
+
+import java.util.ArrayList;
+
+public class arraylistexample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//ArrayList comes under Util Package
+		ArrayList<String> a = new  ArrayList<String>();
+		a.add("Gaurav");
+		a.add("Telgu");
+		System.out.println(a);
+		a.add(0, "GT");
+		System.out.println(a);
+		/*a.remove(1);
+		System.out.println(a);*/
+		a.get(2);
+		System.out.println(a.get(2));
+		
+	}
+
+}

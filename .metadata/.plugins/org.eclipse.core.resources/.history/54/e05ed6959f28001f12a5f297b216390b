@@ -1,0 +1,36 @@
+package Core_Assignment1;
+
+import java.util.Scanner;
+
+public class Employee_Salary {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scanner = new Scanner(System.in); 
+		
+		String Salary;
+		String Designation = null;
+		int YearsofExp = scanner.nextInt();
+		double bonus;
+		
+		switch(Designation.toLowerCase())
+		{
+		case "manager":
+			if (YearsofExp > 10)
+			{
+				bonus = 10000;
+			}
+			if (YearsofExp > 5)
+			{
+				bonus = 7000;
+			}
+			else 
+			{
+				bonus = 3000;
+			}
+		}
+		
+	}
+
+}

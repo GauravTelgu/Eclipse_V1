@@ -1,0 +1,28 @@
+import java.util.ArrayList;
+
+public class Methodsdemo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Methodsdemo d = new Methodsdemo();
+		ArrayList<String> Array = d.getdata();
+		ArrayList<String> Array1 = d1.getdata();
+		Methodsdemo2 d1 = new Methodsdemo2();
+		d1.getdata();
+		
+		
+	}
+	
+	public ArrayList<String> getdata()
+	{
+		System.out.println("Java Selenium");
+		//return "Gaurav Telgu"; {"Gaurav","Telgu"}
+		ArrayList<String> Array1 = new ArrayList<String>();
+		Array1.add("Gaurav");
+		Array1.add("Telgu");
+		Array1.add("Selenium");
+		return Array1;
+
+}
+}

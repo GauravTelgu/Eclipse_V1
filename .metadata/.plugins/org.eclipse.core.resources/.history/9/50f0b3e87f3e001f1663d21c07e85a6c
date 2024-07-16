@@ -1,0 +1,15 @@
+Feature: Req-Res_Post feature for Register
+
+	@execute
+Scenario: Register Successfully
+  Given url baseURI
+  And path 'register'
+  And request
+    """
+    {
+    "name": "morpheus",
+    "job": "leader"
+		}
+    """
+  When method POST
+  Then status 201

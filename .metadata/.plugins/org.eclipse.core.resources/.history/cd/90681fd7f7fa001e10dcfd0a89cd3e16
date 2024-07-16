@@ -1,0 +1,32 @@
+
+public class While_loop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		int i =0;
+	//	while (boolean)
+		while (i<=10)
+		{
+			System.out.println(i);
+			i++;
+		}
+		
+int j =20;
+		
+		
+		// In while loop the boolean expression is first evaluated and then execution is done.
+		//
+		
+		
+		do {
+			j++;
+		}
+		
+		while(j<30);
+		
+	}
+
+}

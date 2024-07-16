@@ -1,0 +1,21 @@
+package Date_time;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class loacltime {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		LocalDate myDateObj = LocalDate.now();
+		System.out.println("Before formatting: " + myDateObj);
+		//DateTimeFormatter myFormatObj = 
+		String formattedDate = myDateObj.format(DateTimeFormatter.("dd-MM-yyyy"));
+		System.out.println("After formatting: " + formattedDate);
+	
+		
+	}
+
+}

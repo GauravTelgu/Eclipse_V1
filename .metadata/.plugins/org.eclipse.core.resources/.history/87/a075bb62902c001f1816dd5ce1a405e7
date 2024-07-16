@@ -1,0 +1,31 @@
+package com.maveric.project.service;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThrows;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+import com.maveric.project.exceptions.InvalidRangeException;
+import com.maveric.project.service.MathserviceCalc.MathserviceCalc;
+
+public class MathServicetest {
+	private static MathserviceCalc mathservicecalculator;
+	
+	@BeforeAll
+	public static void Setup() {
+		mathservicecalculator= new MathserviceCalc();
+	}
+	
+	@Test
+	@DisplayName("Addtion of 1st positive and 2nd negative ")
+	public void test1stpositiveand2ndnegative() throws InvalidRangeException {
+		assertEquals(100, mathservicecalculator.add(10, -12));
+		//	Assertions.assertThrows(InvalidRangeException.class, ()-> mathservicecalculator.add(10, -12));	
+	
+	
+	}
+	
+}

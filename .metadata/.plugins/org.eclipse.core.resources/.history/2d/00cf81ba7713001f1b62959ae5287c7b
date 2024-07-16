@@ -1,0 +1,22 @@
+package Constructor;
+
+public class Constructor_class {
+
+	public Constructor_class()
+	{
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		//Constructor executes a block of code whenever an object is created.
+		//Whenever an object is created constructor is invoked automatically.
+		//Constructor is same as a method but the only difference between them is constructor will not return values and name 
+		//of constructor should always be same as class name.
+		
+		
+		
+	}
+
+}

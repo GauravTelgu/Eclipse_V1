@@ -1,0 +1,11 @@
+Feature: Online Fake API-Airlines-Put
+
+@execute
+ Scenario: Update every detail of a passenger.
+    Given url baseURI
+   	And path 'users/2'
+   	* def airlineputpayload = read('Airline_put_payload.json')
+   	And request airlineputpayload
+    When method PUT
+    Then status 200
+    

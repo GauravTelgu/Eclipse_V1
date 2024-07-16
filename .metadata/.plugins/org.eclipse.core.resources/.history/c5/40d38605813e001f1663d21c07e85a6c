@@ -1,0 +1,11 @@
+Feature: REQ_RES Login Feature
+
+@execute
+ Scenario: Successful Login feature
+     Given url baseURI
+   	And path 'login'
+   	* def airlineputpayload = read('Airline_put_payload.json')
+   	And request airlineputpayload
+    When method POST
+    Then status 200
+    

@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+
+public class Methodsdemo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Methodsdemo d = new Methodsdemo();
+		ArrayList<String> Array = d.getdata();
+		Methodsdemo2 d1 = new Methodsdemo2();
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package Collections;
+
+import java.util.HashSet;
+
+public class hashsetexample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Hashset, Treeset, LinkedHashSet implements Set interface
+		//Does not accept duplicate values
+		//There is no guarantee that elements are stored in sequential order....Random Order
+		
+		HashSet hs = new HashSet();
+		
+	}
+
+}

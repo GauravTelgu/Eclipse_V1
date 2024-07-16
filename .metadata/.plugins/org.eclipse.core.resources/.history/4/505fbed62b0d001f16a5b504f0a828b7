@@ -1,0 +1,20 @@
+package Date_time;
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class loacltime {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		LocalDateTime myDateObj = LocalDateTime.now();
+		System.out.println("Before formatting: " + myDateObj);
+		//DateTimeFormatter myFormatObj = 
+		String formattedDate = myDateObj.format(DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss"));
+		System.out.println("After formatting: " + formattedDate);
+	
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+import java.lang.reflect.Constructor;
+
+public class Contructor1 {
+		 
+		 public static void main(String[] args) {
+				// TODO Auto-generated method stub
+
+			 Contructor1 a = new Contructor1();
+			 a.
+		
+	}
+	
+	
+	public Contructor2()
+	{
+		System.out.println("Gaurav");
+	}
+
+}

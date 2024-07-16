@@ -1,0 +1,19 @@
+
+public class Exception_3 {
+
+	public void Excp() {
+		
+		try {
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

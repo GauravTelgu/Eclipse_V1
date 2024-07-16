@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="ABC"/>
+			<item value="Gaurav-Selenium"/>
+			<item value="gauravtelgu"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="ABC"/>
+			<item value="Selenium-1"/>
+			<item value="seleniumjava"/>
+			<item value="selenium-java"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\gauravra\eclipse-workspace\RestAssuredDemo\src\test\java\com\maveric\project\test\RestApiTest.java"/>
+			<item value="C:\Users\gauravra\eclipse-workspace\Rest_Assured_SecuredAPI\TestData\Airlinedata.json"/>
+			<item value="C:\Users\gauravra\eclipse-workspace\Rest_Assured_FakeRestApi\src\test\java\com\maveric\project\test\RestApiTest.java"/>
+			<item value="C:\Users\gauravra\eclipse-workspace\Rest_Assured"/>
+			<item value="C:\Users\gauravra\eclipse-workspace\SwagLabsDemo\src\test\java\com\maveric\swaglabs\utils\DriverFactory.java"/>
+			<item value="C:\Users\gauravra\eclipse-workspace\BDDGitDemo\src\test\java"/>
+			<item value="C:\Users\gauravra\eclipse-workspace\SwagLabsDemo"/>
+			<item value="C:\Users\gauravra\eclipse-workspace\BDDDemo\Features\GoogleSearch.feature"/>
+			<item value="C:\Users\gauravra\eclipse-workspace\GitDemoTestNGSelenium"/>
+			<item value="C:\Users\gauravra\eclipse-workspace\Seleniumbasicdemo\src\main\java\com\maveric\project\utils\DriverFactory.java"/>
+			<item value="C:\Users\gauravra\eclipse-workspace\JunitDemo"/>
+			<item value="C:\Users\gauravra\eclipse-workspace\EmployeeDataProcessApp"/>
+			<item value="C:\Users\gauravra\eclipse-workspace\JunitDemo\src\test\java\com\maveric\project\AppTest.java"/>
+			<item value="C:\Users\gauravra\eclipse-workspace\ABC"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.maveric.project"/>
+		</list>
+		<list key="groupId">
+			<item value="com.maveric"/>
+		</list>
+		<list key="artifactId">
+			<item value="KarateDemo1"/>
+			<item value="RestAssuredDemo"/>
+			<item value="YatraDemo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+		<list key="archetypeGroupId">
+			<item value="com.intuit.karate"/>
+			<item value="-DarchetypeGroupId=com.intuit.karate"/>
+		</list>
+		<list key="archetypeArtifactId">
+			<item value="karate-archetype"/>
+			<item value="-DarchetypeArtifactId=karate-archetype"/>
+		</list>
+		<list key="archetypeVersion">
+			<item value="1.4.1"/>
+			<item value="-DarchetypeVersion=1.4.1"/>
+		</list>
+		<list key="repositoryUrl">
+			<item value=""/>
+		</list>
+	</section>
+</section>
